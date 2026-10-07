@@ -41,6 +41,7 @@ export default function Escrever() {
         setCheck(novova);
     }
 
+
     return (
 
 
@@ -73,6 +74,10 @@ export default function Escrever() {
                 <h1>Gosta de programar? {check ? 'Sim' : 'Não'}</h1>
                 <input type="checkbox" onChange={mudar4} />
             </div>        
+
+            
+
+
         </div>
     );
 }

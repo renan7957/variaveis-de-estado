@@ -6,6 +6,8 @@ import Contador from './pages/contador/index.jsx';
 import './index.scss';
 import Escrever from './pages/escrever/index.jsx';
 import './pages/escrever/index.scss';
+import Calculadora  from './pages/calculadora/index.jsx';
+import './pages/calculadora/index.scss'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
@@ -17,6 +19,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/contador" element={<Contador />} />
         <Route path="/escrever" element={<Escrever />} />
+        <Route path="/calculadora" element={< Calculadora />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
