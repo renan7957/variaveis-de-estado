@@ -1,5 +1,6 @@
 import './index.scss';
 import { useState } from 'react';
+import Cabecalho from '../../components/cabecalho';
 
 export default function Calculadora() {
 
@@ -30,12 +31,11 @@ export default function Calculadora() {
     return (
 
         <div className='pagina-calculadora'>
-
+                <Cabecalho titulo = "calculadoraaa"/>
             <section className='section'>
 
 
-                <div className='a'>
-                    <h2>Calculadora</h2>
+                <div className='a'>                    <h2>Calculadora</h2>
 
                     <div className='inputs'>
                         <input type="text" value={num1} onChange={(e) => setnum1(e.target.value)} />

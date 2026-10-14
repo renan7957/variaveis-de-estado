@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './index.scss';
-
+import Cabecalho from '../../components/cabecalho';
 
 
 export default function Escrever() {
@@ -46,7 +46,12 @@ export default function Escrever() {
 
 
         <div className="pagina-escrever" style={{backgroundColor: cor}}>
+                <Cabecalho/>
+           
+           
             <div className='oi'>
+
+
                 <h1>{texto}</h1>
 
                 <input type="text" placeholder="Digite algo..." onChange={mudar} />
